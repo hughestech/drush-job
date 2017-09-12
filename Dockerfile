@@ -5,7 +5,7 @@ FROM test/s2i-php-container
 
 EXPOSE 8080
 
-
+USER root
 
 RUN yum install wget -y
 
